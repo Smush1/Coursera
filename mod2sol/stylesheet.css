@@ -9,7 +9,6 @@ h2 {
     font-size: 20px;
     font-style: bold;
     border:2px solid black;
-    width: fit-content;
     position: absolute;
     margin:0;
     top:-2px;
@@ -33,22 +32,30 @@ h2.sushi{
 }
 
 .innerbox{
-    width: 29%;
     float: left;
+    width: 29%;
     background-color: grey;
     position: relative;
-    margin:0 10px 0 10px;
+    margin: 10px 10px;
     border: 1px solid black;
 }
 
-@media(min-width:768px)and(max-width:991) {
-    h2.chicken, h2.beef
-    {
-        width:50%;
+@media (min-width:768px) and (max-width:991px){
+  #box1{
+    width: 45%;
+  }
+  #box2{
+    width: 45%;
+  }
+  #box3{
+    width: 90%;
+  }
     }
-    h2.sushi{
-            width:100%;
-        }
-    }
+
+@media (max-width:767px){
+  #box1, #box2, #box3{
+    width:90%;
+  }
+}
     
 
