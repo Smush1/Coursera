@@ -8,10 +8,11 @@ h1{
 h2 {
     font-size: 20px;
     font-style: bold;
-    border:2px solid black;
+    border:1px solid black;
     position: absolute;
     margin:0;
-    top:-2px;
+    padding: 5px;
+    top: 0;
     right:0;
 }
 
@@ -33,7 +34,7 @@ h2.sushi{
 
 .innerbox{
     float: left;
-    width: 29%;
+    width: 30%;
     background-color: grey;
     position: relative;
     margin: 10px 10px;
@@ -54,7 +55,7 @@ h2.sushi{
 
 @media (max-width:767px){
   #box1, #box2, #box3{
-    width:90%;
+    width:100%;
   }
 }
     
